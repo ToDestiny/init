@@ -1,0 +1,7 @@
+Pour la partie graphique, en utilisant le terminal, on va utiliser la commande
+ useradd et le nom du login, remplir quelques questions et voila!
+ Pour la partie SSH, nous devons editer le fichier /etc/ssh/sshd_config,
+ Ensuite on ajoute port 1234 (ou autre), PermitRootLogin no 
+ (ou oui si on veut en faire un superadmin) and 
+ AllowUsers name_user.
+ Ensuite on fait sudo service ssh reload pour relancer le service ssh
