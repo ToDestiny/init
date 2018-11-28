@@ -1,2 +1,2 @@
-whois slash16.org ou traceroute slash16.org, On peut voir que le serveur est
-AWS, donc on sais que c' est Amazon qu nous connecte au reste du monde.
+whois slash16.org ou traceroute slash16.org, On peut voir que c' est nat-1, 
+une machine specialisee, qui nous relie au reste du monde
