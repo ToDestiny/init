@@ -1,0 +1,6 @@
+#! /bin/bash
+
+read -p 'Delete Username: ' uservar
+
+sudo pkill -u $uservar
+sudo deluser $uservar
