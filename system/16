@@ -1,0 +1,3 @@
+crontab example : 00 22 * * * * /root/scripts/sauvegarde.sh>> sauvegarde.log
+ execute tout les jours a 22h00 une commande 
+ et redige les infos dans un fichier.
